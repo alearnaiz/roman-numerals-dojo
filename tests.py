@@ -6,3 +6,6 @@ class RomanNumeralsShould(unittest.TestCase):
 
     def test_return_one(self):
         assert roman_numerals(1) == 'I'
+
+    def test_return_II_for_two(self):
+        assert roman_numerals(2) == 'II'
