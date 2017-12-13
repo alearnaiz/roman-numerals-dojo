@@ -16,5 +16,5 @@ class RomanNumeralsShould(unittest.TestCase):
     def test_return_V_for_five(self):
         assert roman_numerals(5) == 'V'
 
-    def test_return_V_for_four(self):
+    def test_return_IV_for_four(self):
         assert roman_numerals(4) == 'IV'

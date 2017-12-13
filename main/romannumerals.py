@@ -1,9 +1,7 @@
 
 def roman_numerals(number):
-    if number == 1:
-        return 'I'
-    elif number == 2:
-        return 'II'
-    elif number == 3:
-        return 'III'
+    if number <= 3:
+        return 'I'*number
+    elif number == 4:
+        return 'IV'
     return 'V'
