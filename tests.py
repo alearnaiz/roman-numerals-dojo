@@ -25,5 +25,5 @@ class RomanNumeralsShould(unittest.TestCase):
     def test_return_VII_for_seven(self):
         assert roman_numerals(7) == 'VII'
 
-    def test_return_VII_for_seven(self):
+    def test_return_VIII_for_eight(self):
         assert roman_numerals(8) == 'VIII'

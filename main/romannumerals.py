@@ -4,8 +4,6 @@ def roman_numerals(number):
         return 'I'*number
     elif number == 4:
         return 'IV'
-    elif number == 6:
-        return 'VI'
-    elif number == 7:
-        return 'VII'
-    return 'V'
+    elif number == 5:
+        return 'V'
+    return 'V' + 'I'*(number-5)
