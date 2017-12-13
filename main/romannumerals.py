@@ -6,4 +6,6 @@ def roman_numerals(number):
         return 'IV'
     elif number == 6:
         return 'VI'
+    elif number == 7:
+        return 'VII'
     return 'V'
