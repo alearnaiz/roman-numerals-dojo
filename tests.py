@@ -32,5 +32,5 @@ class RomanNumeralsShould(unittest.TestCase):
         assert roman_numerals(9) == 'IX'
 
 
-if __name__ == 'main':
+if __name__ == "__main__":
     unittest.main()
