@@ -1,5 +1,5 @@
 import unittest
-from main.romannumerals import roman_numerals
+from main.roman_numerals import roman_numerals
 
 
 class RomanNumeralsShould(unittest.TestCase):
@@ -30,3 +30,7 @@ class RomanNumeralsShould(unittest.TestCase):
 
     def test_return_IX_for_nine(self):
         assert roman_numerals(9) == 'IX'
+
+
+if __name__ == 'main':
+    unittest.main()
